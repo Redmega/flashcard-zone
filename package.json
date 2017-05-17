@@ -1,0 +1,23 @@
+{
+  "name": "flashcard-zone",
+  "version": "1.0.0",
+  "description": "Flashcard.Zone is a crowdsourced studying aid/community.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/Redmega/flashcard-zone.git",
+  "keywords": [],
+  "author": "Angel Piscola (Redmega) <angelpiscola@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Redmega/flashcard-zone/issues"
+  },
+  "homepage": "https://github.com/Redmega/flashcard-zone#readme",
+  "dependencies": {
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
