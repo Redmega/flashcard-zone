@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./server/index.js --exec babel-node",
-    "test": "echo \"Warning: no test specified\" && exit 0"
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "nuke": "rm -rf node_modules build",
+    "clean": "rm -rf build"
   },
   "pre-commit": [
     "test"
