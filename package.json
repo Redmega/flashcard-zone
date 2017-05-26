@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./server/index.js --exec babel-node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
+  "pre-commit": [
+    "test"
+  ],
   "repository": "git+https://github.com/Redmega/flashcard-zone.git",
   "keywords": [],
   "author": "Angel Piscola (Redmega) <angelpiscola@gmail.com>",
@@ -31,8 +34,9 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "graphql": "^0.6.0",
     "nodemon": "^1.11.0",
-    "graphql": "^0.6.0"
+    "pre-commit": "^1.2.2"
   },
   "peerDependencies": {
     "graphql": "^0.6.0"
