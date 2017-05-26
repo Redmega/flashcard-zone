@@ -26,6 +26,9 @@ cd /vagrant/vagrant/scripts
 # Install node
 ./install_nvm.sh
 
+# On load of bash cd to /vagrant
+echo "cd /vagrant" >> /home/vagrant/.bashrc
+
 # Done
 touch /etc/vagrant-provisioned
 
